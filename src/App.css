@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+    .container {
+      display: block;
+    }
+}
